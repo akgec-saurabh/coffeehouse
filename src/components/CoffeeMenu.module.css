@@ -1,0 +1,14 @@
+.menu {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: all 1s ease-out forwards;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+}

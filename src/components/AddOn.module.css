@@ -1,0 +1,38 @@
+.add {
+  height: 2.5rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem auto;
+  background-color: #6a2b05;
+  transition: all 0.2s;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+  right: -5px;
+  height: 3rem;
+  width: 4rem;
+  position: absolute;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffee {
+  margin: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Libre Franklin", sans-serif;
+}

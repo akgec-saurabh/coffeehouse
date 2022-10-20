@@ -1,0 +1,92 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.bill {
+  width: 20rem;
+  padding: 1rem;
+
+  box-shadow: 0 0 10px #bebebe;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 10rem;
+  margin-top: -2rem;
+}
+
+.feedback {
+  font-family: "VT323", monospace;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-family: "VT323", monospace;
+  margin: 0.5rem;
+}
+.p {
+  font-family: "VT323", monospace;
+  text-align: center;
+}
+
+.billr,
+.billd {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.billr {
+  border-bottom: 1px solid gray;
+  margin: 5px;
+}
+
+.billi {
+  flex: 2;
+  font-family: "VT323", monospace;
+}
+
+.billq,
+.billp {
+  font-family: "VT323", monospace;
+
+  flex: 1;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0.5rem;
+}
+
+.break {
+  margin: 0.5rem;
+}
+
+.billheading {
+  margin: 0.5rem;
+  font-family: "VT323", monospace;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+}

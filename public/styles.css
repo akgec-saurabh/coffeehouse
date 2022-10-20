@@ -1,0 +1,17 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+body {
+  background-color: #ebe7e5;
+}
+
+#overlays {
+  display: flex;
+  justify-content: center;
+}

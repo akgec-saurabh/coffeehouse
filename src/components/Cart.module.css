@@ -1,0 +1,63 @@
+.cart {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.head {
+  display: flex;
+  margin: 1rem;
+}
+
+.item {
+  flex: 2;
+  border-bottom: 1px solid gray;
+}
+.price,
+.quantity,
+.total {
+  flex: 1;
+  border-bottom: 1px solid gray;
+}
+
+.data {
+  display: flex;
+  margin: 1rem;
+}
+.aitem {
+  flex: 2;
+  display: flex;
+}
+.aprice,
+.aquantity,
+.atotal {
+  flex: 1;
+}
+
+.subtotal {
+  margin: 1rem;
+  text-align: center;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 0.5rem;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0 2px black;
+}
+
+.btn:hover {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
